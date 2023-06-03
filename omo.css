@@ -1,0 +1,96 @@
+*{
+    color:beige;
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Dancing Script', cursive
+}
+h1{
+	font-size:72px;
+	margin-bottom:20px;
+}
+.black{
+	width:100%;
+	background-color:#a0816c;
+	padding:70px 0px 70px 0px;
+}
+.container{
+	display:flex;
+	margin-top: 30px;
+	width:90%;
+	margin: 0% 5% 0% 10%;
+}
+.item{
+	width:50%;
+	margin:auto;
+}
+.item1{
+	width:50%;
+	padding: 20px;
+
+}
+.small-text{
+	margin-top:0px;
+	font-size:28px;
+	line-height: 1.4;
+}
+#self{
+	width:75%;
+	height:auto;
+	border-radius:25px;
+}
+.silver{
+    background-color: #bfaa8c;
+    width: 100%;
+}
+.project{
+text-align:center;
+padding-top: 50px;
+color: #ffffff;
+
+}
+.parent {
+display:grid;
+justify-content: space-evenly;
+grid-row-gap: 75px;
+grid-template-columns: auto auto;
+margin-top: 75px;
+
+}
+.div{
+	width:40vw;
+	border-radius: 25px;
+	height:300px;
+}
+.img{
+	width:100%;
+	border-radius: 25px;
+	height:300px;
+}
+.flex-container {
+  position: fixed;
+top:0;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  z-index: 10;
+  background-color: #a0816c;
+}
+.nav{
+	margin: 20px 20px 20px 20px;
+    font-size:30px;
+    text-decoration: none;
+}
+.nav > a {
+  box-shadow: inset 0 0 0 0 whitw;
+  color: white;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.nav > a:hover {
+  box-shadow: inset 130px 0 0 0  white;
+  color: #a0816c;
+}
+.nav > a:active{
+  text-decoration: underline;
+  text-decoration-color: beige;
+}
