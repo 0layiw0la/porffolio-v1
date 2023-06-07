@@ -55,6 +55,7 @@ justify-content: space-evenly;
 grid-row-gap: 75px;
 grid-template-columns: auto auto;
 margin-top: 75px;
+padding-bottom: 30px;
 
 }
 .div{
@@ -67,9 +68,38 @@ margin-top: 75px;
 	border-radius: 25px;
 	height:300px;
 }
+.layer2{
+	opacity: 1;
+	position:relative;
+	top:-300px;
+	z-index:6;
+	
+}
+.layer1{
+	position:relative;
+	top:0;
+	opacity:0.9;
+  width:100%;
+	border-radius: 25px;
+	height:300px;
+	z-index:5;
+	background-color: beige;
+}
+.layer2:hover{
+	z-index: 0;
+}
+.layer1:hover{
+	z-index: 8;
+}
+.pop-up{
+	display:flex;
+	width:55%;
+	margin:10% 22.5%;
+	border:1px solid red;
+}
 .flex-container {
   position: fixed;
-top:0;
+  top:0;
   display: flex;
   justify-content: center;
   width:100%;
@@ -78,8 +108,8 @@ top:0;
 }
 .nav{
 	margin: 20px 20px 20px 20px;
-    font-size:30px;
-    text-decoration: none;
+  font-size:30px;
+  text-decoration: none;
 }
 .nav > a {
   box-shadow: inset 0 0 0 0 whitw;
@@ -93,4 +123,24 @@ top:0;
 .nav > a:active{
   text-decoration: underline;
   text-decoration-color: beige;
+}
+#cont{
+ background-color:#d9ba93;
+ width:100%;
+ height:auto;
+ padding:20px;
+ text-align: center;
+}
+.flex-container-last{
+	display: flex;
+	justify-content: flex-end;
+}
+#colorz{
+	width:35px;
+	height:auto;
+	margin:20px;
+  
+}
+#colorz:hover{
+	scale:1.3;
 }
