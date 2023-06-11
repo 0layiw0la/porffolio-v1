@@ -126,8 +126,10 @@ padding-bottom: 30px;
 }
 @keyframes blink2{
 	from{border-style: solid;
+		border-radius:0px
 		border-color:white;}
 	to{border-style: dashed;
+		border-radius:0px
 		border-color:#a0816c}
 }
 .button{
