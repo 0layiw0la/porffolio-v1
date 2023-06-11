@@ -229,7 +229,6 @@ padding-bottom: 30px;
 	}
 	.container{
 		flex-direction: column-reverse;
-		border:1px solid red;
 		font-size:11px;
 		width:100%;
 		margin:-2% 0% 0% 0%;
@@ -238,7 +237,6 @@ padding-bottom: 30px;
 		width:90%;
 		padding: 0px;
 		margin:0% 5% 10% 5%;
-		border:1px solid red;
 	}
 	#self{
 		width:100%;
@@ -248,13 +246,10 @@ padding-bottom: 30px;
 		text-align: center;
 	}
 	.item{
-		border:1px solid red;
 		width:90%
-
 	}
 	.flex-container{
 		width:100vw;
-
 	}
 	.black{
 		padding:70px 0px 40px 0px;
@@ -268,7 +263,6 @@ grid-template-columns: 1fr;
 grid-template-rows: repeat(4, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 30px;
-border: 1px solid red;
 margin-top:30px;
 }
 .div{
