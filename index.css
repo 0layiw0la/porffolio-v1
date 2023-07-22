@@ -50,16 +50,14 @@ color: #ffffff;
 
 }
 .parent {
-display:grid;
-justify-content: space-evenly;
-grid-row-gap: 75px;
-grid-template-columns: 2fr;
+display: grid;
+grid-template-columns: 1fr;
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
-margin-top: 75px;
-padding-bottom: 30px;
-
+grid-row-gap: 16px;
 }
+
+
 /*.parent {
 display: grid;
 grid-template-columns: 1fr;
@@ -70,7 +68,7 @@ margin-top:30px;
 }*/
 .div{
 	width:40vw;
-	border-radius: 25px;
+	border-radius: 0px;
 	height:300px;
 }
 .img{
